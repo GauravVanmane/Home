@@ -1,0 +1,167 @@
+<div id="projects" class="background-alt">
+       <h2 class="heading" style="font-family: 'Lobster', cursive;">Projects, Kaggle & Github</h2><br>
+
+       <img src="" align='center'/>
+       <br><br>
+       <!-- <h2>My Github Sta</h2> -->
+       <div class="calendar" style="max-width: 900px;margin:auto; border: none">
+           <!-- Loading stuff -->
+           Loading Github Stats...
+       </div>
+       <script>
+           // GitHubCalendar(".calendar", "your-username");
+
+           // or enable responsive functionality:
+           GitHubCalendar(".calendar", "GauravVanmane", { responsive: true });
+       </script><br>
+
+       <div class="container">
+           <div class="row">
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/NADL.gif" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>NADL - Naive Automatic Differentiation Library</h3>
+                       <p>
+                           A small framework that can perform automatic differentiation to calculate gradients on n-dimensional numpy arrays from scratch.
+                           This framework provides a PyTorch like interface for writing complex deep learning code.
+                           <br>
+                           I have also added unit tests with Travis CI so that it's performance can be monitored after every push.
+                           It is written and maintained by me and new functionalities are added every week.
+                       </p>
+                       <i class="fab fa-github" aria-hidden="true"> <a href="" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Github</a></i>
+                       <!-- &emsp; -->
+                       <!-- <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/torch-multi-model-trainer-amp-augmentations" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i> -->
+                   </div>
+               </div>
+
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/catheter.png" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Catheter Tube Detection</h3>
+                       <p>
+                           This repository houses code that I used for the RANZCR CLiP Catheter Tube detection competition on Kaggle.
+                           The aim here was the predict if a Catheter tube was placed correctly in a patient's body via chest-xrays. This problem is important as it will potentially save a lot of lives if detection if done early and with substantial precision.
+                           In this task, we had 11 classes to classify from.
+                           <br>
+                           I have used the newly announed Normalization Free Neural Networks and compared their performance with Efficient Network.
+                       </p>
+                       <i class="fab fa-github" aria-hidden="true"> <a href="https://github.com/heytanay/catheter-tube-detection" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Github</a></i>
+                       &emsp;
+                       <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/torch-trainer-augmentations-nfnets" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i>
+                   </div>
+               </div>
+
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/project1_img.png" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Leaf Disease Classification</h3>
+                       <p>
+                           This is the codebase which houses a Model, DataLoader, Augmentations and a Trainer Class (all written from Scratch in PyTorch) which detects Leafs with Diseases as a part of Cassava Leaf Disease Classification Challenge on Kaggle.<br>
+                           Due to data imbalance, noisy labels and variable image sizes, I had to use techniques such as <strong>Pseudo-Labelling</strong> and <strong>Bi-Tempered Logistic Loss</strong>, etc to get good score in Classification.
+                       </p>
+                       <i class="fab fa-github" aria-hidden="true"> <a href="https://github.com/heytanay/leaf-disease-detection" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Github</a></i>
+                       &emsp;
+                       <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/torch-multi-model-trainer-amp-augmentations" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i>
+                   </div>
+               </div>
+
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/project2_img.png" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Pneumonia Detection from Chest X-Rays</h3>
+                       <p>
+                           I have made a Deep Convolutional Neural Network to classify between Chest X-Rays that have Pneumonia and those that donot.
+                           In this task, I have achieved an accuracy of 84% on highly skewed dataset with noisy labels.
+                           Along with the classification, I have also done very detailed Exploratory Data Analysis on the dataset and extracted usefull information from that.
+                           <br>
+                           I have also deployed a Web App that classifies any chest-xray into one of the 2 categories.
+                       </p>
+                       <i class="fab fa-github" aria-hidden="true"> <a href="https://github.com/heytanay/pneumonia-detection" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Github</a></i>
+                       &emsp;
+                       <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/xray-image-eda-classification-keras" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i>
+                       &emsp;
+                       <i class="fab fa-chrome" aria-hidden="true"> <a href="https://share.streamlit.io/heytanay/chest_xray_webapp/sharing/app.py" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View Web App</a></i>
+                   </div>
+               </div>
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/project3_img.png" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Melanoma Cancer Detection (SIIM-ISIC Challenge)</h3>
+                       <p>
+                           In this project, I performed extensive Exploratory Data Analysis, and trained a deep learning model (using PyTorch) to detect Melanoma Cancer from highly-imbalanced dataset of over 100GBs of size.
+                           <br>
+                           The target label (Malignant) consisted of only <i>1.8%</i> of the entire dataset hence K-Fold Cross Validation along with Custom Loss functions and numerous augmentations were used.
+                       </p>
+                       <i class="fab fa-github" aria-hidden="true"> <a href="https://github.com/heytanay/melanoma-cancer-detection" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Github</a></i>
+                       &emsp;
+                       <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/siim-isic-all-you-need-to-get-started" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i>
+                   </div>
+               </div>
+
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/project4_img.jpg" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Jet Hadron Collider Data Compression using Autoencoders</h3>
+                       <p>
+                           This project contains a Stacked Auto Encoder made in order to compress Hadron Jet Data from 4->3 Variables. I have used a Stacked Autoencoder of 3D Latent Dimensions. This way the SAE is decompressing 4D data into 3D thus reducing the space it takes.
+                           <br>
+                           The Model currently performs "OK-ish" - judging from the final loss.
+                           <br>
+                           The Reconstruction Loss (Mean Squared error measuring the distance between original data and the reconstructed data) after 350 epochs on training closes to about <strong>0.03</strong>
+                       </p>
+                       <i class="fab fa-github" aria-hidden="true"> <a href="https://github.com/heytanay/jet-data-compression" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Github</a></i>
+                   </div>
+               </div>
+
+               <!-- PROJECT -->
+               <!-- <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/project5_img.png" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Basket Ball Players Data Analysis</h3>
+                       <p>
+                           This projects consisted of a notebook where I have performed Interactive Data Visualizations and other forms of Exploratory Data Analysis.
+                       </p>
+                       <br><br><br><br>
+                       <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/basketball-eda-plotly-dabl" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i>
+                   </div>
+               </div> -->
+
+               <!-- PROJECT -->
+               <div class="project shadow-large">
+                   <div class="project-image">
+                       <img src="images/project6_img.png" width="300px" height="300px"/>
+                   </div>
+                   <div class="project-info">
+                       <h3>Stack Overflow Q/A Classification</h3>
+                       <p>
+                           For Text Classification tasks, Deep Learning methods are used most often however, Classical Machine Learning methods have an untapped potential on even the most complex task; like this one for example.
+                           <br><br>
+                           Here, I have compared various machine learning models in their performance in classifying a text string into one of the 3 types (NLP Multi-class classification problem).
+
+                       </p>
+                       <br><br>
+                       <i class="fab fa-kaggle" aria-hidden="true"> <a href="https://www.kaggle.com/heyytanay/stack-overflow-qa-classification-87-acc" style="font-family: 'Nunito Sans', sans-serif; font-size:17px;" target="_blank">View on Kaggle</a></i>
+                   </div>
+               </div>
+           </div>
+       </div>
